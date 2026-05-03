@@ -1,16 +1,18 @@
-## Hi there 👋
+# Hey 👋, I'm Abhinash
 
-<!--
-**ABHI786-tech/ABHI786-tech** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+💻 Frontend Developer | MERN Stack Enthusiast  
+⚡ Building Modern Web Apps with clean UI & smooth UX  
 
-Here are some ideas to get you started:
+### 🛠 Tech Stack:
+- ⚙️ HTML | CSS | JavaScript  
+- ⚛️ React.js | Next.js  
+- 🎨 Tailwind CSS | Bootstrap  
+- 🧠 Node.js | Express.js | MongoDB  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🚀 What I Do:
+- Build responsive & dynamic websites  
+- Work on real-world projects  
+- Exploring AI & Automation  
+
+📩 Email: abhiiofficial453@gmail.com  
+🌐 Portfolio: https://abhi786-tech.github.io/portfolio/
