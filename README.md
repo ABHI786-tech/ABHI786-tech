@@ -6,8 +6,9 @@
 ### 🛠 Tech Stack:
 - ⚙️ HTML | CSS | JavaScript  
 - ⚛️ React.js | Next.js  
-- 🎨 Tailwind CSS | Bootstrap  
-- 🧠 Node.js | Express.js | MongoDB  
+- 🎨 Tailwind CSS | Bootstrap | radix
+- 🧠 Node.js | Express.js | MongoDB
+- 🧾 learning Python
 
 ### 🚀 What I Do:
 - Build responsive & dynamic websites  
