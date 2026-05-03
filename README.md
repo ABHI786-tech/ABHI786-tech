@@ -6,7 +6,7 @@
 ### 🛠 Tech Stack:
 - ⚙️ HTML | CSS | JavaScript  
 - ⚛️ React.js | Next.js  
-- 🎨 Tailwind CSS | Bootstrap | radix
+- 🎨 Tailwind CSS | Bootstrap | Radix UI
 - 🧠 Node.js | Express.js | MongoDB
 - 🧾 learning Python
 
