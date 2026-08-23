@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 660" width="420" height="660" role="img" aria-label="Abhinash ID card lanyard">
+  <title>Abhinash — ID badge</title>
+  <defs>
+    <style type="text/css">
+      <![CDATA[
+text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+@keyframes settle{0%{transform:rotate(0deg) translateY(-660px)}18%{transform:rotate(0deg) translateY(0)}30%{transform:rotate(13deg)}46%{transform:rotate(-9deg)}62%{transform:rotate(6deg)}78%{transform:rotate(-3.5deg)}92%{transform:rotate(1.5deg)}100%{transform:rotate(0deg)}}
+@keyframes sway{0%,100%{transform:rotate(-3.2deg)}50%{transform:rotate(3.2deg)}}
+@keyframes cardWobble{0%,100%{transform:rotate(1.6deg)}50%{transform:rotate(-1.6deg)}}
+@keyframes shine{0%{transform:translateX(-340px) skewX(-18deg)}55%,100%{transform:translateX(420px) skewX(-18deg)}}
+@keyframes twinkle{0%,100%{opacity:0;transform:scale(.4)}50%{opacity:1;transform:scale(1)}}
+@keyframes heartBeat{0%,100%{transform:scale(1)}12%{transform:scale(1.25)}24%{transform:scale(1)}36%{transform:scale(1.15)}48%{transform:scale(1)}}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+.settle{transform-origin:210px 6px;animation:settle 3.4s cubic-bezier(.34,1.1,.5,1) forwards}
+.sway{transform-origin:210px 6px;animation:sway 4.2s ease-in-out 3.4s infinite}
+.wob{transform-origin:210px 300px;animation:cardWobble 4.2s ease-in-out 3.4s infinite}
+.shine{animation:shine 4.5s ease-in-out 3.6s infinite}
+.tw{transform-box:fill-box;transform-origin:center;animation:twinkle 2.8s ease-in-out infinite}
+.hb{transform-box:fill-box;transform-origin:center;animation:heartBeat 2.4s ease-in-out infinite}
+]]>
+    </style>
+    <linearGradient id="strapg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="cardg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#101a2e"/>
+      <stop offset="100%" stop-color="#101a2e"/>
+    </linearGradient>
+    <linearGradient id="cardborder" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%">
+        <animate attributeName="stop-color" values="#38bdf8;#818cf8;#2563eb;#38bdf8" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%">
+        <animate attributeName="stop-color" values="#2563eb;#38bdf8;#818cf8;#2563eb" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c8ccd6"/>
+      <stop offset="45%" stop-color="#8a90a0"/>
+      <stop offset="55%" stop-color="#6a7080"/>
+      <stop offset="100%" stop-color="#9aa0b0"/>
+    </linearGradient>
+    <linearGradient id="shineg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#fff" stop-opacity=".14"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="nameg2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%">
+        <animate attributeName="stop-color" values="#38bdf8;#818cf8;#38bdf8" dur="5s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%">
+        <animate attributeName="stop-color" values="#818cf8;#38bdf8;#818cf8" dur="5s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <radialGradient id="lglow">
+      <stop offset="0%" stop-color="#c084fc" stop-opacity=".16"/>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow2">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000" flood-opacity=".55"/>
+    </filter>
+    <clipPath id="cardclip">
+      <rect x="82" y="298" width="256" height="330" rx="20"/>
+    </clipPath>
+  </defs>
+  <circle cx="210" cy="440" r="230" fill="url(#lglow)">
+    <animate attributeName="r" values="230;250;230" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <!-- pendulum: settle then sway -->
+  <g class="settle">
+    <g class="sway">
+      <!-- Strap -->
+      <g>
+        <path d="M191 -6 L229 -6 L226 236 L194 236 Z" fill="url(#strapg)"/>
+        <line x1="196" y1="0" x2="198.5" y2="234" stroke="#fff" stroke-opacity=".55" stroke-width="1" stroke-dasharray="4 3"/>
+        <line x1="224" y1="0" x2="221.5" y2="234" stroke="#fff" stroke-opacity=".55" stroke-width="1" stroke-dasharray="4 3"/>
+        <text x="0" y="0" font-size="10.5" font-weight="bold" fill="#fff" opacity=".92" letter-spacing="2" transform="translate(214,18) rotate(90)">ABHI.DEV ♥ CODE ♥ ABHI.DEV</text>
+      </g>
+      <!-- Clasp + ring -->
+      <rect x="188" y="232" width="44" height="26" rx="6" fill="url(#metal)" stroke="#4a4f5c" stroke-width="1"/>
+      <rect x="199" y="238" width="22" height="7" rx="3.5" fill="#3c414e"/>
+      <circle cx="210" cy="272" r="14" fill="none" stroke="url(#metal)" stroke-width="5.5"/>
+      <!-- Card (secondary wobble) -->
+      <g class="wob">
+        <rect x="82" y="298" width="256" height="330" rx="20" fill="url(#cardg)" stroke="url(#cardborder)" stroke-width="2" filter="url(#cardShadow)"/>
+        <!-- slot -->
+        <rect x="180" y="310" width="60" height="10" rx="5" fill="#0a0714" stroke="#3b2a5c" stroke-width="1"/>
+        <g clip-path="url(#cardclip)">
+          <!-- header band -->
+          <rect x="82" y="298" width="256" height="34" fill="#38bdf8" opacity=".7"/>
+          <text x="98" y="345" font-size="9" fill="#8b949e" letter-spacing="1.5">DEVELOPER ID</text>
+          <text x="322" y="345" text-anchor="end" font-size="9" fill="#38bdf8" letter-spacing="1.5">MM-001</text>
+          <!-- avatar -->
+          <circle cx="210" cy="412" r="59" fill="none" stroke="url(#cardborder)" stroke-width="2.5"/>
+          <!-- IMAGE area -->
+          
+          <!-- name -->
+          <g transform="translate(101,516)" fill="url(#nameg2)" filter="url(#glow2)">
+            <g class="ltr" style="animation-delay:1.60s">
+              <path transform="translate(0.0,0) scale(0.06000,-0.06000)" d="M0 279C70 279 102 278 147 275C63 146 0 28 0 -25C0 -41 6 -66 46 -87C97 31 158 156 222 269C263 264 306 259 365 250C355 192 352 157 352 126C352 30 376 -29 440 -29C514 -29 584 49 626 159L608 178C552 72 506 29 475 29C450 29 440 55 440 108C440 279 555 652 596 683C571 706 547 722 528 722C484 722 336 549 190 338C163 341 139 344 116 344C61 344 18 327 0 279ZM375 299C334 308 294 318 254 326C337 469 420 586 481 634C443 545 400 417 375 299Z"/>
+            </g>
+            <g class="ltr" style="animation-delay:1.69s">
+              <path transform="translate(37.9,0) scale(0.06000,-0.06000)" d="M348 645C347 676 334 714 307 714C216 714 -11 257 -11 60C-11 -23 29 -73 105 -73C179 -73 234 -25 272 35C279 34 286 34 293 34C372 34 416 76 450 155L435 176C414 133 376 65 306 65C298 65 295 66 288 66C308 109 318 153 318 192C318 260 287 292 244 292C193 292 153 248 153 183C153 130 179 78 228 51C203 5 158 -31 123 -31C84 -31 71 13 71 66C71 148 102 240 116 266C240 337 348 551 348 645ZM301 620C300 573 222 409 135 329C180 468 276 611 301 620ZM202 178C202 211 216 239 234 239C250 239 263 217 263 169C263 137 257 111 245 84C212 107 202 150 202 178Z"/>
+            </g>
+            <g class="ltr" style="animation-delay:1.78s">
+              <path transform="translate(62.5,0) scale(0.06000,-0.06000)" d="M257 46C257 6 284 -24 335 -24C420 -24 491 59 537 160L521 177C479 89 404 16 360 16C345 16 333 24 333 48C333 92 375 143 375 207C375 252 355 306 287 306C153 306 98 94 86 75C86 82 85 89 85 96C85 145 93 197 119 266C242 338 353 553 353 643C353 676 338 714 310 714C214 714 5 260 5 75C5 15 17 -38 46 -38C125 -38 148 233 250 233C270 233 286 223 286 191C286 149 257 87 257 46ZM305 620C305 574 227 409 140 330C189 475 282 611 305 620Z"/>
+            </g>
+            <g class="ltr" style="animation-delay:1.87s">
+              <path transform="translate(92.2,0) scale(0.06000,-0.06000)" d="M141 340C66 340 -8 135 -8 59C-8 10 21 -30 80 -30C163 -30 238 38 285 156L270 172C212 58 158 19 113 19C84 19 68 29 68 72C68 160 171 277 171 311C171 330 157 340 141 340ZM198 421C234 421 271 453 271 481C271 509 252 518 228 518C191 518 148 492 148 460C148 433 173 421 198 421Z"/>
+            </g>
+            <g class="ltr" style="animation-delay:1.96s">
+              <path transform="translate(106.9,0) scale(0.06000,-0.06000)" d="M-38 14C-22 -7 2 -15 27 -15C78 69 169 220 250 220C268 220 285 210 285 181C285 138 257 89 257 49C257 9 285 -20 337 -20C417 -20 473 61 516 159L499 173C463 101 406 20 358 20C346 20 334 28 334 49C334 93 373 138 373 199C373 246 346 292 289 292C221 292 152 225 100 156C111 196 117 229 117 245C117 264 104 275 82 275C61 275 39 261 30 251C30 165 -35 28 -38 14Z"/>
+            </g>
+            <g class="ltr" style="animation-delay:2.05s">
+              <path transform="translate(135.4,0) scale(0.06000,-0.06000)" d="M360 263C360 311 314 343 257 343C119 343 -26 158 -26 41C-26 -18 12 -47 56 -47C107 -47 148 -7 201 57C201 16 227 -30 284 -30C359 -30 438 45 487 154L468 173C408 59 344 17 312 17C290 17 282 36 282 53C282 97 339 159 339 185C339 202 316 211 303 215C338 216 360 229 360 263ZM284 213C233 145 138 4 77 4C61 4 54 13 54 36C54 128 166 306 259 306C293 306 301 281 301 254C301 240 300 230 296 217C295 217 293 218 292 218C289 218 286 216 284 213Z"/>
+            </g>
+            <g class="ltr" style="animation-delay:2.14s">
+              <path transform="translate(162.1,0) scale(0.06000,-0.06000)" d="M-20 86C-20 21 16 -51 117 -51C178 -51 230 -25 252 30C316 40 365 88 391 164L379 173C343 104 302 70 261 60C263 72 265 85 265 101C265 190 207 278 207 339C207 357 212 367 212 375C211 386 204 395 188 395C164 395 143 375 143 322V312C117 256 79 209 46 175C33 161 -20 164 -20 86ZM185 93C185 86 185 71 182 62C128 75 85 111 64 147C92 176 127 230 151 272C166 210 184 153 185 93ZM110 -7C61 -7 35 40 35 84C35 101 39 109 49 111C73 79 119 44 174 32C161 6 136 -7 110 -7Z"/>
+            </g>
+            <g class="ltr" style="animation-delay:2.23s">
+              <path transform="translate(183.2,0) scale(0.06000,-0.06000)" d="M257 46C257 6 284 -24 335 -24C420 -24 491 59 537 160L521 177C479 89 404 16 360 16C345 16 333 24 333 48C333 92 375 143 375 207C375 252 355 306 287 306C153 306 98 94 86 75C86 82 85 89 85 96C85 145 93 197 119 266C242 338 353 553 353 643C353 676 338 714 310 714C214 714 5 260 5 75C5 15 17 -38 46 -38C125 -38 148 233 250 233C270 233 286 223 286 191C286 149 257 87 257 46ZM305 620C305 574 227 409 140 330C189 475 282 611 305 620Z"/>
+            </g>
+          </g>
+          <text x="210" y="540" text-anchor="middle" font-size="11" fill="#22d3ee" font-weight="bold" letter-spacing="2.5">FRONTEND DEVELOPER</text>
+          <text x="210" y="558" text-anchor="middle" font-size="10.5" fill="#8b949e">@ABHI786-tech</text>
+          <line x1="100" y1="572" x2="320" y2="572" stroke="#2a1f3d" stroke-width="1"/>
+          <!-- barcode + tag -->
+          <g transform="translate(100,584)">
+            <rect x="0" y="0" width="2.5" height="26" fill="#e6edf3" opacity=".85"/>
+            <rect x="5.0" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/>
+            <rect x="9.0" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/>
+            <rect x="12.0" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/>
+            <rect x="16.0" y="0" width="4" height="26" fill="#e6edf3" opacity=".85"/>
+            <rect x="21.5" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/>
+            <rect x="26.0" y="0" width="4" height="26" fill="#e6edf3" opacity=".85"/>
+            <rect x="31.5" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/>
+            <rect x="34.5" y="0" width="4" height="26" fill="#e6edf3" opacity=".85"/>
+            <rect x="41.0" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/>
+            <rect x="45.5" y="0" width="2.5" height="26" fill="#e6edf3" opacity=".85"/>
+            <rect x="50.5" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/>
+            <rect x="54.5" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/>
+            <rect x="58.5" y="0" width="2.5" height="26" fill="#e6edf3" opacity=".85"/>
+            <rect x="63.5" y="0" width="2.5" height="26" fill="#e6edf3" opacity=".85"/>
+            <rect x="67.5" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/>
+            <rect x="72.0" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/>
+            <rect x="76.5" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/>
+            <rect x="81.0" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/>
+            <rect x="84.0" y="0" width="2.5" height="26" fill="#e6edf3" opacity=".85"/>
+            <rect x="89.0" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/>
+            <rect x="93.5" y="0" width="4" height="26" fill="#e6edf3" opacity=".85"/>
+          </g>
+          <!-- holo shine sweep -->
+          <rect class="shine" x="82" y="288" width="120" height="360" fill="url(#shineg)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

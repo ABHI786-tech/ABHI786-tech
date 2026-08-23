@@ -1,0 +1,66 @@
+{
+  "name": "Abhinash",
+  "role_titles": [
+    "Full Stack Developer",
+    "React Enthusiast",
+    "UI Craftsman",
+    "Problem Solver"
+  ],
+  "username": "ABHI786-tech",
+  "email": "abhiofficial453@gmail.com",
+  "character_image": "",
+  "tagline": "I build ideas into interfaces.",
+  "quote": "Code is my art, Logic is my superpower.",
+  "skills": ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"],
+
+  "theme": {
+    "bg1": "#0b1120",
+    "bg2": "#0f172a",
+    "bg3": "#0a0f1c",
+    "accent1": "#38bdf8",
+    "accent2": "#818cf8",
+    "accent3": "#22d3ee",
+    "textDim": "#8b949e",
+    "textMain": "#e6edf3"
+  },
+
+  "socials": {
+    "github": "ABHI786-tech",
+    "email": "abhiofficial453@gmail.com",
+    "instagram": "",
+    "youtube": "",
+    "linkedin": ""
+  },
+
+  "projects": [
+    { "name": "Project One", "url": "https://github.com/ABHI786-tech/project-one", "tech": "React, Tailwind", "stars": 0 },
+    { "name": "Project Two", "url": "https://github.com/ABHI786-tech/project-two", "tech": "HTML, CSS, JS", "stars": 0 },
+    { "name": "Project Three", "url": "https://github.com/ABHI786-tech/project-three", "tech": "JavaScript", "stars": 0 }
+  ],
+
+  "stats": {
+    "total_stars": 0,
+    "total_commits": 0,
+    "total_prs": 0,
+    "total_issues": 0,
+    "contributed_to": 0,
+    "rank": "B+",
+    "rank_percent": 65
+  },
+
+  "languages": [
+    { "name": "JavaScript", "percent": 40, "color": "#f1e05a" },
+    { "name": "HTML",       "percent": 25, "color": "#e34c26" },
+    { "name": "CSS",        "percent": 20, "color": "#563d7c" },
+    { "name": "React/JSX",  "percent": 10, "color": "#38bdf8" },
+    { "name": "Other",      "percent": 5,  "color": "#8b949e" }
+  ],
+
+  "trophies": [
+    { "label": "Commits",    "rank": "B+" },
+    { "label": "Stars",      "rank": "B"  },
+    { "label": "PRs",        "rank": "A"  },
+    { "label": "Followers",  "rank": "C+" },
+    { "label": "Experience", "rank": "B"  }
+  ]
+}

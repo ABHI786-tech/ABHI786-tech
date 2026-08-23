@@ -1,0 +1,505 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 760 330"
+     width="760"
+     height="330"
+     role="img"
+     aria-label="Languages and technologies I am learning">
+
+<defs>
+
+<style><![CDATA[
+text{
+  font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace
+}
+
+@keyframes fadeUp{
+  from{
+    opacity:0;
+    transform:translateY(8px) scale(.96)
+  }
+  to{
+    opacity:1;
+    transform:translateY(0) scale(1)
+  }
+}
+
+@keyframes shineX{
+  0%{
+    transform:translateX(-180px) skewX(-15deg)
+  }
+  60%,100%{
+    transform:translateX(900px) skewX(-15deg)
+  }
+}
+
+@keyframes glow{
+  0%,100%{opacity:.8}
+  50%{opacity:1}
+}
+
+.pill{
+  opacity:0;
+  animation:fadeUp .45s ease forwards
+}
+
+.title{
+  animation:glow 3s ease-in-out infinite
+}
+
+.sh{
+  animation:shineX 5s ease-in-out 2s infinite
+}
+]]></style>
+
+
+<!-- Blue title gradient -->
+<linearGradient id="tg"
+                x1="0"
+                y1="0"
+                x2="1"
+                y2="0">
+
+  <stop offset="0%">
+    <animate
+      attributeName="stop-color"
+      values="#38bdf8;#60a5fa;#38bdf8"
+      dur="6s"
+      repeatCount="indefinite"/>
+  </stop>
+
+  <stop offset="100%">
+    <animate
+      attributeName="stop-color"
+      values="#2563eb;#38bdf8;#2563eb"
+      dur="6s"
+      repeatCount="indefinite"/>
+  </stop>
+
+</linearGradient>
+
+
+<!-- Card background -->
+<linearGradient id="bg"
+                x1="0"
+                y1="0"
+                x2="0"
+                y2="1">
+
+  <stop offset="0%" stop-color="#081525"/>
+  <stop offset="100%" stop-color="#050e19"/>
+
+</linearGradient>
+
+
+<!-- Shine -->
+<linearGradient id="shg"
+                x1="0"
+                y1="0"
+                x2="1"
+                y2="0">
+
+  <stop offset="0%"
+        stop-color="#fff"
+        stop-opacity="0"/>
+
+  <stop offset="50%"
+        stop-color="#38bdf8"
+        stop-opacity=".08"/>
+
+  <stop offset="100%"
+        stop-color="#fff"
+        stop-opacity="0"/>
+
+</linearGradient>
+
+
+<clipPath id="card">
+  <rect x="1"
+        y="1"
+        width="758"
+        height="328"
+        rx="16"/>
+</clipPath>
+
+</defs>
+
+
+<!-- CARD -->
+
+<rect x="1"
+      y="1"
+      width="758"
+      height="328"
+      rx="16"
+      fill="url(#bg)"
+      stroke="url(#tg)"
+      stroke-width="1.5"/>
+
+
+<!-- TITLE -->
+
+<text class="title"
+      x="24"
+      y="35"
+      font-size="16"
+      font-weight="bold"
+      fill="url(#tg)">
+  🧠 Languages &amp; Technologies I'm Learning
+</text>
+
+<text x="24"
+      y="55"
+      font-size="10.5"
+      fill="#64748b">
+  Building • Learning • Exploring
+</text>
+
+
+<!-- ========================= -->
+<!-- ROW 1 -->
+<!-- ========================= -->
+
+<!-- HTML -->
+
+<g class="pill" style="animation-delay:.15s">
+  <rect x="24" y="72" width="91" height="28" rx="14"
+        fill="#0b2033" stroke="#38bdf8" stroke-opacity=".45"/>
+  <text x="38" y="90" font-size="11">🌐</text>
+  <text x="57" y="90" font-size="10.5" fill="#e6edf3">HTML</text>
+</g>
+
+
+<!-- CSS -->
+
+<g class="pill" style="animation-delay:.22s">
+  <rect x="121" y="72" width="82" height="28" rx="14"
+        fill="#0b2033" stroke="#60a5fa" stroke-opacity=".45"/>
+  <text x="135" y="90" font-size="11">🎨</text>
+  <text x="154" y="90" font-size="10.5" fill="#e6edf3">CSS</text>
+</g>
+
+
+<!-- Tailwind -->
+
+<g class="pill" style="animation-delay:.29s">
+  <rect x="209" y="72" width="145" height="28" rx="14"
+        fill="#0b2033" stroke="#22d3ee" stroke-opacity=".45"/>
+  <text x="223" y="90" font-size="11">🌊</text>
+  <text x="242" y="90" font-size="10.5" fill="#e6edf3">Tailwind / shadcn</text>
+</g>
+
+
+<!-- Bootstrap -->
+
+<g class="pill" style="animation-delay:.36s">
+  <rect x="360" y="72" width="112" height="28" rx="14"
+        fill="#0b2033" stroke="#818cf8" stroke-opacity=".45"/>
+  <text x="374" y="90" font-size="11">🅱️</text>
+  <text x="394" y="90" font-size="10.5" fill="#e6edf3">Bootstrap</text>
+</g>
+
+
+<!-- JavaScript -->
+
+<g class="pill" style="animation-delay:.43s">
+  <rect x="478" y="72" width="122" height="28" rx="14"
+        fill="#0b2033" stroke="#facc15" stroke-opacity=".45"/>
+  <text x="492" y="90" font-size="11">🟨</text>
+  <text x="512" y="90" font-size="10.5" fill="#e6edf3">JavaScript</text>
+</g>
+
+
+<!-- GSAP -->
+
+<g class="pill" style="animation-delay:.50s">
+  <rect x="606" y="72" width="74" height="28" rx="14"
+        fill="#0b2033" stroke="#4ade80" stroke-opacity=".45"/>
+  <text x="620" y="90" font-size="11">⚡</text>
+  <text x="639" y="90" font-size="10.5" fill="#e6edf3">GSAP</text>
+</g>
+
+
+<!-- Animations -->
+
+<g class="pill" style="animation-delay:.57s">
+  <rect x="686" y="72" width="50" height="28" rx="14"
+        fill="#0b2033" stroke="#a78bfa" stroke-opacity=".45"/>
+  <text x="701" y="90" font-size="11">✨</text>
+</g>
+
+
+<!-- ========================= -->
+<!-- ROW 2 -->
+<!-- ========================= -->
+
+<!-- React -->
+
+<g class="pill" style="animation-delay:.64s">
+  <rect x="24" y="110" width="92" height="28" rx="14"
+        fill="#0b2033" stroke="#61dafb" stroke-opacity=".45"/>
+  <text x="38" y="128" font-size="11">⚛️</text>
+  <text x="58" y="128" font-size="10.5" fill="#e6edf3">React</text>
+</g>
+
+
+<!-- Node -->
+
+<g class="pill" style="animation-delay:.71s">
+  <rect x="122" y="110" width="106" height="28" rx="14"
+        fill="#0b2033" stroke="#4ade80" stroke-opacity=".45"/>
+  <text x="136" y="128" font-size="11">🟢</text>
+  <text x="156" y="128" font-size="10.5" fill="#e6edf3">Node.js</text>
+</g>
+
+
+<!-- Redux -->
+
+<g class="pill" style="animation-delay:.78s">
+  <rect x="234" y="110" width="96" height="28" rx="14"
+        fill="#0b2033" stroke="#a78bfa" stroke-opacity=".45"/>
+  <text x="248" y="128" font-size="11">🔄</text>
+  <text x="268" y="128" font-size="10.5" fill="#e6edf3">Redux</text>
+</g>
+
+
+<!-- Next -->
+
+<g class="pill" style="animation-delay:.85s">
+  <rect x="336" y="110" width="101" height="28" rx="14"
+        fill="#0b2033" stroke="#e2e8f0" stroke-opacity=".45"/>
+  <text x="350" y="128" font-size="11">▲</text>
+  <text x="369" y="128" font-size="10.5" fill="#e6edf3">Next.js</text>
+</g>
+
+
+<!-- Express -->
+
+<g class="pill" style="animation-delay:.92s">
+  <rect x="443" y="110" width="117" height="28" rx="14"
+        fill="#0b2033" stroke="#94a3b8" stroke-opacity=".45"/>
+  <text x="457" y="128" font-size="11">🚂</text>
+  <text x="478" y="128" font-size="10.5" fill="#e6edf3">Express.js</text>
+</g>
+
+
+<!-- Mongo -->
+
+<g class="pill" style="animation-delay:.99s">
+  <rect x="566" y="110" width="112" height="28" rx="14"
+        fill="#0b2033" stroke="#4ade80" stroke-opacity=".45"/>
+  <text x="580" y="128" font-size="11">🍃</text>
+  <text x="601" y="128" font-size="10.5" fill="#e6edf3">MongoDB</text>
+</g>
+
+
+<!-- Python -->
+
+<g class="pill" style="animation-delay:1.06s">
+  <rect x="684" y="110" width="52" height="28" rx="14"
+        fill="#0b2033" stroke="#facc15" stroke-opacity=".45"/>
+  <text x="700" y="128" font-size="11">🐍</text>
+</g>
+
+
+<!-- ========================= -->
+<!-- ROW 3 -->
+<!-- ========================= -->
+
+<!-- Python -->
+
+<g class="pill" style="animation-delay:1.13s">
+  <rect x="24" y="148" width="108" height="28" rx="14"
+        fill="#0b2033" stroke="#facc15" stroke-opacity=".45"/>
+  <text x="38" y="166" font-size="11">🐍</text>
+  <text x="58" y="166" font-size="10.5" fill="#e6edf3">Python</text>
+</g>
+
+
+<!-- FastAPI -->
+
+<g class="pill" style="animation-delay:1.20s">
+  <rect x="138" y="148" width="108" height="28" rx="14"
+        fill="#0b2033" stroke="#22d3ee" stroke-opacity=".45"/>
+  <text x="152" y="166" font-size="11">⚡</text>
+  <text x="173" y="166" font-size="10.5" fill="#e6edf3">FastAPI</text>
+</g>
+
+
+<!-- LangChain -->
+
+<g class="pill" style="animation-delay:1.27s">
+  <rect x="252" y="148" width="125" height="28" rx="14"
+        fill="#0b2033" stroke="#4ade80" stroke-opacity=".45"/>
+  <text x="266" y="166" font-size="11">🔗</text>
+  <text x="287" y="166" font-size="10.5" fill="#e6edf3">LangChain</text>
+</g>
+
+
+<!-- DBMS -->
+
+<g class="pill" style="animation-delay:1.34s">
+  <rect x="383" y="148" width="94" height="28" rx="14"
+        fill="#0b2033" stroke="#60a5fa" stroke-opacity=".45"/>
+  <text x="397" y="166" font-size="11">🗄️</text>
+  <text x="418" y="166" font-size="10.5" fill="#e6edf3">DBMS</text>
+</g>
+
+
+<!-- Data Structures -->
+
+<g class="pill" style="animation-delay:1.41s">
+  <rect x="483" y="148" width="144" height="28" rx="14"
+        fill="#0b2033" stroke="#38bdf8" stroke-opacity=".45"/>
+  <text x="497" y="166" font-size="11">🌳</text>
+  <text x="518" y="166" font-size="10.5" fill="#e6edf3">Data Structures</text>
+</g>
+
+
+<!-- SQLite -->
+
+<g class="pill" style="animation-delay:1.48s">
+  <rect x="633" y="148" width="103" height="28" rx="14"
+        fill="#0b2033" stroke="#60a5fa" stroke-opacity=".45"/>
+  <text x="647" y="166" font-size="11">💾</text>
+  <text x="668" y="166" font-size="10.5" fill="#e6edf3">SQLite</text>
+</g>
+
+
+<!-- ========================= -->
+<!-- ROW 4 -->
+<!-- ========================= -->
+
+<!-- PostgreSQL -->
+
+<g class="pill" style="animation-delay:1.55s">
+  <rect x="24" y="186" width="132" height="28" rx="14"
+        fill="#0b2033" stroke="#60a5fa" stroke-opacity=".45"/>
+  <text x="38" y="204" font-size="11">🐘</text>
+  <text x="60" y="204" font-size="10.5" fill="#e6edf3">PostgreSQL</text>
+</g>
+
+
+<!-- Alembic -->
+
+<g class="pill" style="animation-delay:1.62s">
+  <rect x="162" y="186" width="106" height="28" rx="14"
+        fill="#0b2033" stroke="#38bdf8" stroke-opacity=".45"/>
+  <text x="176" y="204" font-size="11">🔧</text>
+  <text x="197" y="204" font-size="10.5" fill="#e6edf3">Alembic</text>
+</g>
+
+
+<!-- Pytest -->
+
+<g class="pill" style="animation-delay:1.69s">
+  <rect x="274" y="186" width="99" height="28" rx="14"
+        fill="#0b2033" stroke="#4ade80" stroke-opacity=".45"/>
+  <text x="288" y="204" font-size="11">🧪</text>
+  <text x="309" y="204" font-size="10.5" fill="#e6edf3">Pytest</text>
+</g>
+
+
+<!-- Learning -->
+
+<g class="pill" style="animation-delay:1.76s">
+  <rect x="379" y="186" width="155" height="28" rx="14"
+        fill="#0b2033" stroke="#38bdf8" stroke-opacity=".45"/>
+
+  <text x="394"
+        y="204"
+        font-size="11">🚀</text>
+
+  <text x="416"
+        y="204"
+        font-size="10.5"
+        fill="#38bdf8"
+        font-weight="bold">
+
+    Always Learning
+
+  </text>
+</g>
+
+
+<!-- ================================= -->
+<!-- DIVIDER -->
+<!-- ================================= -->
+
+<line x1="24"
+      y1="232"
+      x2="736"
+      y2="232"
+      stroke="#102a43"
+      stroke-width="1"/>
+
+
+<text x="24"
+      y="254"
+      font-size="10.5"
+      fill="#64748b">
+
+  ⚡ Frontend
+
+</text>
+
+<text x="130"
+      y="254"
+      font-size="10.5"
+      fill="#64748b">
+
+  • Backend
+
+</text>
+
+<text x="230"
+      y="254"
+      font-size="10.5"
+      fill="#64748b">
+
+  • Databases
+
+</text>
+
+<text x="350"
+      y="254"
+      font-size="10.5"
+      fill="#64748b">
+
+  • AI / ML
+
+</text>
+
+<text x="445"
+      y="254"
+      font-size="10.5"
+      fill="#64748b">
+
+  • CS Fundamentals
+
+</text>
+
+
+<text x="24"
+      y="285"
+      font-size="11"
+      fill="#38bdf8"
+      font-weight="bold">
+
+  &gt; learning_mode: ON_
+
+</text>
+
+
+<!-- SHINE -->
+
+<g clip-path="url(#card)">
+  <rect class="sh"
+        x="0"
+        y="0"
+        width="120"
+        height="330"
+        fill="url(#shg)"
+        transform="skewX(-15)"/>
+</g>
+
+</svg>
