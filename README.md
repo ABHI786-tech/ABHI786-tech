@@ -54,9 +54,9 @@
 ### 🐍 Contribution Snake
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ABHI786-tech/ABHI786-tech/output/github-snake.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ABHI786-tech/ABHI786-tech/output/github-snake-light.svg">
-  <img src="https://raw.githubusercontent.com/ABHI786-tech/ABHI786-tech/output/github-snake.svg" alt="Contribution snake"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ABHI786-tech/ABHI786-tech/output/github-snake-blue.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ABHI786-tech/ABHI786-tech/output/github-snake-blue-ice.svg">
+  <img src="https://raw.githubusercontent.com/ABHI786-tech/ABHI786-tech/output/github-snake-blue.svg" alt="Contribution snake"/>
 </picture>
 
 <br/><br/>
